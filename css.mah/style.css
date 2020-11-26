@@ -1,0 +1,36 @@
+.btn{
+    background-color: #F7931A;
+}
+body{
+    font-family: Nunito;
+}
+.one{
+    background-color: #1746CF;
+    border-radius: 5px;
+    width: 32px;
+    height: 29px;
+    text-align: center;
+}
+span{
+  font-size: 15px;
+  font-weight: 800;
+}
+footer{
+    background-color: #0B2D90;
+    width: auto;
+    height: 92px;
+}
+.footimg{
+    grid-row-gap: 0px;
+}
+/*media query for border*/
+@media(min-width:600px){
+    .clas1 ,.clas2{
+        border-left: 1.08118px solid #0B2D90;
+    }
+}
+@media(max-width:600px){
+    .clas1 ,.clas2{
+    border-left: 0px;
+    }
+}
